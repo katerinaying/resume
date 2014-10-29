@@ -1,10 +1,10 @@
-= Contact Info =
-== Email ==
+# Contact Info #
+## Email ##
 vincent.y.chen@ericsson.com
-== Phone ==
+## Phone ##
 +86 13022168160
 
-= Summary =
+# Summary #
 More than 2 years working experience in Ericsson.
 
 Quick learner in new areas.
@@ -16,10 +16,10 @@ Script Language: Bash, Perl, Python;
 OS: Solaris, Linux;
 
 
-= Experience =
+# Experience #
 
-== Ericsson ==
-=== Software Engineer ===
+## Ericsson ##
+### Software Engineer ###
 Data: July 2012 - Present
 Place: Shanghai, China
 
@@ -37,7 +37,7 @@ eMBMS, Envolved Multimedia Broadcast Multicast Service, Developer
 Product related technical skills
 C++, JAVA, Linux, HA, Cloud
 
-=== Software Engineer(Intern) ===
+### Software Engineer(Intern) ###
 Data: Feb 2012 - June 2012
 Place: Shanghai, China
 Develop new features for product.
@@ -50,24 +50,24 @@ Product related technical skills
 C++, JAVA, Solaris, HA
 
 
-= Volunteer Experience & Causes =
+# Volunteer Experience & Causes #
 
 Leader of a community
 I went to Shan Xi, China for a short time teach with some of our volunteers in association
 
 
 
-= Patents =
-== A high efficient liquid-flow membrane capacitive deionization (MCDI) device ==
+# Patents #
+## A high efficient liquid-flow membrane capacitive deionization (MCDI) device ##
 Number: China ZL201110131551.8
 Issued November 28, 2012
-== An automatic control module for liquid-flow capacitive deionization device ==
+## An automatic control module for liquid-flow capacitive deionization device ##
 China ZL201120207654.3
 Issued March 7, 2012
 
 
 
 
-= Education =
-== East China Normal University ==
+# Education #
+## East China Normal University ##
 Bachelor Degree, Communication Enginnering
