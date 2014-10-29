@@ -29,8 +29,8 @@ Editor: VIM, Eclipse, IntelliJ
 Date: July 2014 - Present
 Location: Shanghai, China
 
-Develop new features for product.
-Handling product Bugs.
+* Develop new features for product.
+* Handling product Bugs.
 
 Product related technical skills
 
@@ -54,11 +54,10 @@ Date: Feb 2012 - June 2012
 
 Location: Shanghai, China
 
-Develop new features for product.
-
-Handling product service request from different customers.
-
-Handling product Bugs.
+#### Responsibility ####
+* Develop new features for product.
+* Handling product service request from different customers.
+* Handling product Bugs.
 
 Product CP (Correction Package)/ PLT (Platform)/ EC (Emergency Correction) release.
 
