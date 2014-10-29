@@ -11,12 +11,15 @@ Quick learner in new areas.
 
 Good knowledge collaborate mindset. 
 
+### Competence Domain###
+
 Program Language: C(4 year), C++(2 year), Java(1 year);
 
 Script Language: Bash, Perl, Python;
 
 OS: Linux(4 year), Solaris(1 year);
 
+Editor: VIM, Eclipse, IntelliJ
 
 # Experience #
 
@@ -63,14 +66,14 @@ I went to Shan Xi, China for a short time teach with some of our volunteers in a
 
 
 # Patents #
-## A high efficient liquid-flow membrane capacitive deionization (MCDI) device ##
+### A high efficient liquid-flow membrane capacitive deionization (MCDI) device ###
 Number: China ZL201110131551.8
 Issued November 28, 2012
 
-## An automatic control module for liquid-flow capacitive deionization device ##
+### An automatic control module for liquid-flow capacitive deionization device ###
 China ZL201120207654.3
 Issued March 7, 2012
 
 # Education #
-## East China Normal University ##
+### East China Normal University ###
 Bachelor Degree, Communication Enginnering
