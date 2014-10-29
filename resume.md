@@ -26,9 +26,10 @@ Editor: VIM, Eclipse, IntelliJ
 ## Ericsson ##
 
 ### Software Engineer - Develop ###
-Date: July 2014 - Present
-Location: Shanghai, China
+*Date:* July 2014 - Present
+*Location:* Shanghai, China
 
+#### Responsibility ####
 * Develop new features for product.
 * Handling product Bugs.
 
@@ -38,10 +39,11 @@ C++, JAVA, Linux, HA
 
 
 ### Software Engineer - Tier2 ###
-Date: July 2012 - July 2014
+*Date:* July 2012 - July 2014
 
-Location: Shanghai, China
+*Location:* Shanghai, China
 
+#### Responsibility ####
 * Handling product service request from different customers.
 * Handling product Bugs.
 * Product CP (Correction Package)/ PLT (Platform)/ EC (Emergency Correction) release.
@@ -50,9 +52,9 @@ Product related technical skills
 C++, JAVA, Linux, Solaris, HA, openstack
 
 ### Software Engineer(Intern) ###
-Date: Feb 2012 - June 2012
+*Date:* Feb 2012 - June 2012
 
-Location: Shanghai, China
+*Location:* Shanghai, China
 
 #### Responsibility ####
 * Develop new features for product.
