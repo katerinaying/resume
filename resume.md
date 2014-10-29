@@ -27,6 +27,7 @@ Editor: VIM, Eclipse, IntelliJ
 
 ### Software Engineer - Develop ###
 **Date:** July 2014 - Present
+
 **Location:** Shanghai, China
 
 #### Responsibility ####
