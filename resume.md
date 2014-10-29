@@ -34,7 +34,7 @@ Editor: VIM, Eclipse, IntelliJ
 * Develop new features for product.
 * Handling product Bugs.
 
-Product related technical skills
+#### Product related technical skills ####
 
 C++, JAVA, Linux, HA
 
@@ -49,7 +49,7 @@ C++, JAVA, Linux, HA
 * Handling product Bugs.
 * Product CP (Correction Package)/ PLT (Platform)/ EC (Emergency Correction) release.
 
-Product related technical skills
+#### Product related technical skills ####
 C++, JAVA, Linux, Solaris, HA, openstack
 
 ### Software Engineer(Intern) ###
@@ -64,7 +64,7 @@ C++, JAVA, Linux, Solaris, HA, openstack
 
 Product CP (Correction Package)/ PLT (Platform)/ EC (Emergency Correction) release.
 
-Product related technical skills
+#### Product related technical skills ####
 C++, JAVA, Solaris, HA
 
 # Patents #
