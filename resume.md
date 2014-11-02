@@ -39,8 +39,19 @@ Editor: VIM, Eclipse, IntelliJ
 C++, JAVA, Linux, HA
 
 
+### Software Engineer - STA ###
+**Date:** April 2014 - July 2014
+
+**Location:** TX, US
+
+#### Responsibility ####
+* Support Ericsson Tier1 Engineer with one demo project for AT&T
+
+#### Product related technical skills ####
+Linux, Broadcast over LTE solution
+
 ### Software Engineer - Tier2 ###
-**Date:** July 2012 - July 2014
+**Date:** July 2012 - April 2014
 
 **Location:** Shanghai, China
 
