@@ -19,7 +19,7 @@
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
-\usepackage[scale=0.8]{geometry}
+\usepackage[scale=0.85]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
@@ -55,8 +55,11 @@
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 
+\section{Tags}
+\cvitem{}{90s, Passion for new Technology, Want to win }
+
 \section{Education}
-\cventry{2008--2012}{Bachelor Degree}{East China Normal University}{Shanghai}{Communication Engineering}{
+\cventry{2008--2012}{Bachelor Degree}{East China Normal University(ECNU)}{Shanghai}{Communication Engineering}{
 \textbf{Awards:}
 \begin{itemize}
 \item \textbf{Special-Grade Prize}, The 12th \textit{Challenge Cup} \textbf{National} Competition for Chinese University Students’ Extracurricular Academic and Scientific Achievements
@@ -71,19 +74,24 @@
 }
 
 \section{Skills}
-
-
-\subsection{Programing Language}
 \cvitem{}{C/C++, Python, Java, \LaTeX, R}
-%C C++ JAVA Python TEX
-
-\subsection{OS}
 \cvitem{}{Linux, Mac, Windows}
-\subsection{CVS}
-\cvitem{}{Git, Clearcase}
+\cvitem{}{Git, Eclipse, ItelliJ, Sublime, VIM}
 
-\subsection{IDE}
-\cvitem{}{Eclipse, ItelliJ, Sublime, VIM}
+\section{Experience}
+\subsection{Vocational}
+\cventry{2012--2015}{Software Engineer}{Ericsson}{Shanghai}{}{C++ developer in product Broadcast over LTE.\newline{}%
+Detailed achievements:%
+\begin{itemize}%
+\item Design and implement provisioning module in product (Design Pattern, C++);
+\item Impelement a Product Customization indiviually(C++);
+\item During one short term assignment in TX,US, help Ericsson Tier1 engineer with SI work and successfully delivery the project(Linux, Network).
+\end{itemize}}
+
+\subsection{Project in University}
+\cventry{2009--2011}{Main paticipator}{ECNU}{Shanghai}{}{Water purify project, work with classmates from physics.\newline{}}
+\cventry{2010--2011}{Main sponsor}{ECNU}{Shanghai}{}{Developing smart medicine box for older people, work with classmates from CS.\newline{}}
+
 
 \section{Patents}
 
@@ -102,19 +110,11 @@
 \end{itemize}
 }
 
-\section{Experience}
-\subsection{Vocational}
-\cventry{2012--2015}{Software Engineer}{Ericsson}{Shanghai}{}{General description no longer than 1--2 lines.\newline{}%
-Detailed achievements:%
-\begin{itemize}%
-\item Design and implement provisioning module in product (Design Pattern, C++);
-\item Impelement a Product Customization indiviually(C++);
-\item During one short term assignment in TX,US, help Ericsson Tier1 engineer with SI work and successfully delivery the project(Linux, Network).
-\end{itemize}}
 
 \section{Languages}
-\cvitemwithcomment{English}{Professional working proficiency}{}
-\cvitemwithcomment{Mandarin}{Native Speaker}{}
+\cvitem{English}{Professional working proficiency}
+\cvitem{Mandarin}{Native Speaker}
+
 
 
 % \section{Interests}
