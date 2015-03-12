@@ -19,7 +19,7 @@
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
-\usepackage[scale=0.75]{geometry}
+\usepackage[scale=0.8]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
@@ -33,10 +33,8 @@
 \email{vincent.yd.chen@gmail.com}                               % optional, remove / comment the line if not wanted
 %\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
 \social[linkedin]{vincentychen}                        % optional, remove / comment the line if not wanted
-%\social[zhihu]{chen-yi-dong-54} 
-%\social[twitter]{jdoe}                             % optional, remove / comment the line if not wanted
 \social[github]{VincentYChen}                              % optional, remove / comment the line if not wanted
-\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
 \photo[64pt][0.4pt]{pic/vincent}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 %\quote{Some quote}                                 % optional, remove / comment the line if not wanted
 
@@ -61,29 +59,31 @@
 \cventry{2008--2012}{Bachelor Degree}{East China Normal University}{Shanghai}{Communication Engineering}{
 \textbf{Awards:}
 \begin{itemize}
+\item \textbf{Special-Grade Prize}, The 12th \textit{Challenge Cup} \textbf{National} Competition for Chinese University Students’ Extracurricular Academic and Scientific Achievements
+\item 3rd prize in the second \textit{Beidou cup} \textbf{National} Youth Technology Innovation Contest(Only teams from two universities in Shanghai won awards)
 % December 2009 Project A Green and Low-cost Water Treatment Nanotechnology achieved the first place in 6th Competition for Science Experiment in ECNU
 % July 2010 Won the third prize in 2009 annual Technology & Invention Competition in Shanghai
 % October 2010 Awarded the second price in China Undergraduate Mathematical Contest in Modeling(CUMCM) in Shanghai
 % December 2010 Project Automatic Control of Water Processing achieved the first place in 7th Competition for Science Experiment in ECNU
 % April 2011 April 2011
 % Won the second price in the 9th Tan Kah Kee Young People's Invention Award in Shanghai(first vacancies)
-\item \textbf{Special-Grade Prize}, The 12th \textit{Challenge Cup} \textbf{National} Competition for Chinese University Students’ Extracurricular Academic and Scientific Achievements
-\item 3rd prize in the second \textit{Beidou cup} \textbf{National} Youth Technology Innovation Contest(Only teams from two universities in Shanghai won awards)
 \end{itemize}
 }
 
-
 \section{Skills}
 
+
 \subsection{Programing Language}
+\cvitem{}{C/C++, Python, Java, \LaTeX, R}
 %C C++ JAVA Python TEX
 
 \subsection{OS}
-%Linux Mac Windows
-
+\cvitem{}{Linux, Mac, Windows}
 \subsection{CVS}
-%git
-% \cvdoubleitem{Linux}{XXX, YYY, ZZZ}{category 4}{XXX, YYY, ZZZ}
+\cvitem{}{Git, Clearcase}
+
+\subsection{IDE}
+\cvitem{}{Eclipse, ItelliJ, Sublime, VIM}
 
 \section{Patents}
 
@@ -107,63 +107,38 @@
 \cventry{2012--2015}{Software Engineer}{Ericsson}{Shanghai}{}{General description no longer than 1--2 lines.\newline{}%
 Detailed achievements:%
 \begin{itemize}%
-\item Achievement 1;
-\item Achievement 2, with sub-achievements:
-  \begin{itemize}%
-  \item Sub-achievement (a);
-  \item Sub-achievement (b), with sub-sub-achievements (don't do this!);
-    \begin{itemize}
-    \item Sub-sub-achievement i;
-    \item Sub-sub-achievement ii;
-    \item Sub-sub-achievement iii;
-    \end{itemize}
-  \item Sub-achievement (c);
-  \end{itemize}
-\item Achievement 3.
+\item Design and implement provisioning module in product (Design Pattern, C++);
+\item Impelement a Product Customization indiviually(C++);
+\item During one short term assignment in TX,US, help Ericsson Tier1 engineer with SI work and successfully delivery the project(Linux, Network).
 \end{itemize}}
 
 \section{Languages}
+\cvitemwithcomment{English}{Professional working proficiency}{}
 \cvitemwithcomment{Mandarin}{Native Speaker}{}
-\cvitemwithcomment{English}{Good}{CET6 501, and was arranged to TX,US for 2 months}
 
 
-\section{Interests}
-\cvitem{Jogging}{Description}
-\cvitem{Badminton}{Description}
+% \section{Interests}
+% \cvitem{Jogging}{Description}
+% \cvitem{Badminton}{Description}
 %\cvitem{hobby 3}{Description}
 
-\section{Extra 1}
-\cvlistitem{Item 1}
-\cvlistitem{Item 2}
-\cvlistitem{Item 3. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
+% \section{Extra 1}
+% \cvlistitem{Item 1}
+% \cvlistitem{Item 2}
+% \cvlistitem{Item 3. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
 
-\section{Extra 2}
-\cvlistdoubleitem{Item 1}{Item 4}
-\cvlistdoubleitem{Item 2}{Item 5}
-\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
+% \section{Extra 2}
+% \cvlistdoubleitem{Item 1}{Item 4}
+% \cvlistdoubleitem{Item 2}{Item 5}
+% \cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
 
-
-
-\section{Summary}
-More than 2 years working experience in Ericsson.
-
-Quick learner in new areas.
-
-Good knowledge collaborate mindset. 
-
-\section{References}
-\begin{cvcolumns}
-  \cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
-  \cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
-  \cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
-\end{cvcolumns}
 
 % Publications from a BibTeX file without multibib
 %  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
 %  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
-\nocite{*}
-\bibliographystyle{plain}
-\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+% \nocite{*}
+% \bibliographystyle{plain}
+% \bibliography{publications}                        % 'publications' is the name of a BibTeX file
 
 % Publications from a BibTeX file using the multibib package
 %\section{Publications}
