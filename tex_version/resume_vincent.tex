@@ -1,62 +1,37 @@
-%% start of file `template.tex'.
-%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
-%
-% This work may be distributed and/or modified under the
-% conditions of the LaTeX Project Public License version 1.3c,
-% available at http://www.latex-project.org/lppl/.
-
-
-\documentclass[10pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\documentclass[10.5pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 % moderncv themes
 \moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 %\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
 %\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
-
-% character encoding
-%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
-%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+                        % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
-\usepackage[scale=0.8]{geometry}
+\usepackage[scale=0.9]{geometry}
 %\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
 \name{Vincent}{Chen}
-\title{C++ Software Engineer}                               % optional, remove / comment the line if not wanted
-%\address{street and number}{postcode city}{country}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
-\phone[mobile]{+86~(130)~2216~8160}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
-%\phone[fixed]{+2~(345)~678~901}
-%\phone[fax]{+3~(456)~789~012}
+\title{Software Engineer}                               % optional, remove / comment the line if not wanted
+\phone[mobile]{+86~(130)~2216~8160}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be
 \email{vincent.yd.chen@gmail.com}                               % optional, remove / comment the line if not wanted
-%\homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
 \social[linkedin]{vincentychen}                        % optional, remove / comment the line if not wanted
 \social[github]{VincentYChen}                              % optional, remove / comment the line if not wanted
-%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
 \photo[64pt][0.4pt]{pic/vincent}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 %\quote{Some quote}                                 % optional, remove / comment the line if not wanted
 
-% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
-%\makeatletter
-%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
-%\makeatother
-%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
 
-% bibliography with mutiple entries
-%\usepackage{multibib}
-%\newcites{book,misc}{{Books},{Others}}
 %----------------------------------------------------------------------------------
 %            content
 %----------------------------------------------------------------------------------
 \begin{document}
-%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 
-\section{Tags}
-\cvitem{}{90s, Passion for new Technology, Dare to win }
+\section{Summary}
+\cvitem{}{Proficient C++ engineer, working comfortable with Agile development process, willing to learning }
 
 \section{Education}
 \cventry{2008--2012}{Bachelor Degree}{East China Normal University(ECNU)}{Shanghai}{Communication Engineering}{
@@ -64,100 +39,53 @@
 \begin{itemize}
 \item \textbf{Special-Grade Prize}, The 12th \textit{Challenge Cup} \textbf{National} Competition for Chinese University Students' Extracurricular Academic and Scientific Achievements
 \item 3rd prize in the second \textit{Bei Dou cup} \textbf{National} Youth Technology Innovation Contest(Only teams from two universities in Shanghai won awards)
-% December 2009 Project A Green and Low-cost Water Treatment Nanotechnology achieved the first place in 6th Competition for Science Experiment in ECNU
-% July 2010 Won the third prize in 2009 annual Technology & Invention Competition in Shanghai
-% October 2010 Awarded the second price in China Undergraduate Mathematical Contest in Modeling(CUMCM) in Shanghai
-% December 2010 Project Automatic Control of Water Processing achieved the first place in 7th Competition for Science Experiment in ECNU
-% April 2011 April 2011
-% Won the second price in the 9th Tan Kah Kee Young People's Invention Award in Shanghai(first vacancies)
 \end{itemize}
 }
 
 \section{Skills}
-\cvitem{Main Skill}{C/C++(3+ years), Python(1+ year), Java(1+ year), \LaTeX(1- year), R(1- year)}
-\cvitem{}{Linux(5 years), Mac(1- year), Windows(10 years)}
-\cvitem{}{Git(3 years), VIM(3+ years), Eclipse(2 years), Sublime(1+ year), ItelliJ(1- year)}
+\cvitem{}{\textbf{C/C++(3+ years)}, Linux(5 years)}
+\cvitem{}{Python, Java, Bash, Git, VIM, Eclipse, Sublime, ItelliJ}
 
 \section{Experience}
 \subsection{Vocational}
-\cventry{2012--2015}{Software Engineer}{Ericsson}{Shanghai}{}{C++ developer in product Broadcast over LTE.\newline{}%
+\cventry{2012--2015}{Software Engineer}{Ericsson}{Shanghai}{}{%
 Detailed achievements:%
 \begin{itemize}%
-\item Design and implement provisioning module in product (Design Pattern, C++);
-\item Implement a Product Customization individually(C++);
-\item As a member in Ericsson Function Develop Team, develop function in varies field for product.(C++, JAVA, Python, Bash)
-\item During one short term assignment, help Ericsson US local engineer with SI work and successfully delivery the project(Linux, Network).
+\item \textbf{High performance content replication system}
+    \begin{itemize}
+    \item A c++ application in linux platform, event driven, 100 channel duplicated by 12 times, low latency delivery in KVM.
+    \item Design and implement the module responsible for dynamic configuration data loading.
+    \item Run performance test and locate the bottle neck of the application and do improvement.
+    \item Use valgrind to check and solve memory leak.
+    \item Use cppcheck and sonar to static analysis and fix code issues.
+    \end{itemize}
+\item \textbf{High performance segment based content delivery system}
+    \begin{itemize}
+    \item A c++ application in linux platform, event driven, 600 channels delivery with low latency and good quality.
+    \item Maintain the products, solve core dumps, deadlock. 
+    \end{itemize}
+\item \textbf{High performance stream based content delivery system}
+    \begin{itemize}
+    \item A c++ application in solaris platform, event driven, hundreds of channels delivery with low latency.
+    \item Migrate product from ipv4 to ipv6.
+    \item Use Dtrace and libumem to detect and solve memory leak problem.
+    \end{itemize}
+\item \textbf{24 * 7 support from PDU(Product Develop Unit) support}
+    \begin{itemize}
+    \item Lead the Emergency Processing rule setup for PDU
+    \item Handling support requests from global customers 
+    \end{itemize}
 \end{itemize}}
 
-\subsection{Project in University}
-\cventry{2009--2011}{Main participator}{ECNU}{Shanghai}{}{
-Water purify project. The idea mainly focus on develop a whole solution to clean the polluted water in a better way.\newline{}
-\textbf{Patents Achieved:} China ZL201110131551.8, China ZL201120207654.3
-}
-\cventry{2010--2011}{Main sponsor}{ECNU}{Shanghai}{}{Smart medicine box project. The idea focus on helping older people these days and remind them to take medicine on time\newline{}}
-
-
-% \section{Patents}
-
-% \cventry{Nov 28, 2012}{A high efficient liquid-flow membrane capacitive deionization (MCDI)  device}{}{}{}{
-% \begin{itemize}
-% \item China ZL201110131551.8
-% \item Inventions
-% % \item Issued November 28, 2012
-% \end{itemize}
-% }
-% \cventry{Mar 7, 2012}{An automatic control module for liquid-flow capacitive deionization device}{}{}{}{
-% \begin{itemize}
-% \item China ZL201120207654.3
-% \item Utility models
-% % \item Issued March 7, 2012
-% \end{itemize}
-% }
-
-
 \section{Languages}
-\cvitem{English}{Working proficiency}
-\cvitem{Mandarin}{Native Speaker}
+\cvitem{English}{Working proficiency, CET6 certificate}
 
-
-
-% \section{Interests}
-% \cvitem{Jogging}{Description}
-% \cvitem{Badminton}{Description}
-%\cvitem{hobby 3}{Description}
-
-% \section{Extra 1}
-% \cvlistitem{Item 1}
-% \cvlistitem{Item 2}
-% \cvlistitem{Item 3. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
-
-% \section{Extra 2}
-% \cvlistdoubleitem{Item 1}{Item 4}
-% \cvlistdoubleitem{Item 2}{Item 5}
-% \cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
-
-
-% Publications from a BibTeX file without multibib
-%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
-%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
-% \nocite{*}
-% \bibliographystyle{plain}
-% \bibliography{publications}                        % 'publications' is the name of a BibTeX file
-
-% Publications from a BibTeX file using the multibib package
-%\section{Publications}
-%\nocitebook{book1,book2}
-%\bibliographystylebook{plain}
-%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
-%\nocitemisc{misc1,misc2,misc3}
-%\bibliographystylemisc{plain}
-%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+\section{Certificates}
+\cvitem{}{Ericsson Agile Software Engineer Training Certificate}
+\cvitem{}{Ericsson Clean Code Training certificate}
+\cvitem{}{Coursera: Algorithm 1(by Stanford University) Accomplishment Certificate}
+\cvitem{}{Coursera: R programming language Accomplishment Certificate with distinct(score higher than 90)}
 
 \clearpage
 
-
-%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
 \end{document}
-
-
-%% end of file `template.tex'.
