@@ -27,7 +27,7 @@
 \geometry{a4paper, textwidth=6.5in, textheight=10in,marginparsep=7pt, marginparwidth=.6in}
 
 % 个人信息
-\name{祎东}{陈}
+\name{陈祎东}{}
 \title{C++软件工程师}                     % 可选项、如不需要可删除本行
 \phone[mobile]{+86~(130)~2216~8160}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be
 \email{vincent.yd.chen@gmail.com}                               % optional, remove / comment the line if not wanted
@@ -50,63 +50,64 @@
 \begin{document}
 \makecvtitle
 
-\section{教育背景}
-\cventry{年 -- 年}{学位}{院校}{城市}{\textit{成绩}}{说明}  % 第3到第6编码可留白
-\cventry{年 -- 年}{学位}{院校}{城市}{\textit{成绩}}{说明}
+\section{总结}
+\cvitem{}{过硬的C++技能， 熟悉敏捷开发， 快速学习能力}
 
-\section{毕业论文}
-\cvitem{题目}{\emph{题目}}
-\cvitem{导师}{导师}
-\cvitem{说明}{\small 论文简介}
-\section{工作背景}
-\subsection{专业}
-\cventry{年 -- 年}{职位}{公司}{城市}{}{不超过1--2行的概况说明\newline{}%
-工作内容:%
+\section{教育背景}
+\cventry{2008 -- 2012}{本科}{华东师范大学}{上海}{电子信息科学与技术}{
+\textbf{在校期间，}
+\begin{itemize}
+\item 获第十二届“挑战杯”全国大学生课外学术科技作品竞赛特等奖
+\item 获第二届“北斗杯”全国青少年科技创新大赛（大学组）三等奖
+\end{itemize}} 
+
+\section{技能}
+\cvitem{}{\textbf{C/C++(3+ years)}, Linux(5 years)}
+\cvitem{}{Python, Java, Bash, Git, VIM, Eclipse, Sublime, ItelliJ}
+\cvitem{}{熟悉memcache，protobuff的具体实现}
+
+\section{工作经验}
+\cventry{2012--2015}{软件工程师}{爱立信上海研发中心}{上海}{}{%
 \begin{itemize}%
-\item 工作内容 1;
-\item 工作内容 2、 含二级内容:
-  \begin{itemize}%
-  \item 二级内容 (a);
-  \item 二级内容 (b)、含三级内容 (不建议使用);
+\item \textbf{高性能视频流复制系统}
     \begin{itemize}
-    \item 三级内容 i;
-    \item 三级内容 ii;
-    \item 三级内容 iii;
+    \item 基于Linux平台的C++应用，事件驱动，与memcache一致的线程模型，实现在KVM上100路频道的12倍流复制
+    \item 独立设计并实现动态加载配置文件的模块
+    \item 运行性能测试并定位系统瓶颈，并且调优
+    \item 使用valgrind检查并解决内存泄漏
+    \item 使用cppcheck和sonar对代码进行静态分析并解决代码问题
+    \item 使用Python编写自动化测试脚本，方便性能测试一键执行
     \end{itemize}
-  \item 二级内容 (c);
-  \end{itemize}
-\item 工作内容 3。
+\item \textbf{高性能视频文件输出系统}
+    \begin{itemize}
+    \item 基于linux平台的C++应用，使用事件模型，支持600路频道的高质量，低延时输出
+    \item 负责产品日常维护，处理coredump和死锁
+    \end{itemize}
+\item \textbf{高性能视频流输出系统}
+    \begin{itemize}
+    \item 基于solaris平台的C++应用，事件驱动模型，支持百级RTP流的低延时输出
+    \item 独立将产品从IPv4的平台迁移到IPv6平台
+    \item 使用libumem和Dtrace解决产品中的memory leak
+    \end{itemize}
+\item \textbf{研发中心24*7紧急支持}
+    \begin{itemize}
+    \item 负责紧急支持小组的工作流程培训，防火演习及日常管理工作
+    \item 负责平时客户
+    \item 工作中需快速掌握并帮助客户处理各种事件，如网络管理，Java,python应用， 或不同第三方应用的集成, 如oracle, veritas, loadbalancer     
+    \end{itemize}
 \end{itemize}}
-\cventry{年 -- 年}{职位}{公司}{城市}{}{说明行1\newline{}说明行2}
-\subsection{其他}
-\cventry{年 -- 年}{职位}{公司}{城市}{}{说明}
+
+
+
+% \renewcommand{\listitemsymbol}{-}             % 改变列表符号
 
 \section{语言技能}
-\cvitemwithcomment{语言 1}{水平}{评价}
-\cvitemwithcomment{语言 2}{水平}{评价}
-\cvitemwithcomment{语言 3}{水平}{评价}
+\cvitem{English}{CET6}
 
-\section{计算机技能}
-\cvdoubleitem{类别 1}{XXX, YYY, ZZZ}{类别 4}{XXX, YYY, ZZZ}
-\cvdoubleitem{类别 2}{XXX, YYY, ZZZ}{类别 5}{XXX, YYY, ZZZ}
-\cvdoubleitem{类别 3}{XXX, YYY, ZZZ}{类别 6}{XXX, YYY, ZZZ}
-
-\section{个人兴趣}
-\cvitem{爱好 1}{\small 说明}
-\cvitem{爱好 2}{\small 说明}
-\cvitem{爱好 3}{\small 说明}
-
-\section{其他 1}
-\cvlistitem{项目 1}
-\cvlistitem{项目 2}
-\cvlistitem{项目 3}
-
-\renewcommand{\listitemsymbol}{-}             % 改变列表符号
-
-\section{其他 2}
-\cvlistdoubleitem{项目 1}{项目 4}
-\cvlistdoubleitem{项目 2}{项目 5}
-\cvlistdoubleitem{项目 3}{}
+\section{Certificates}
+\cvitem{}{爱立信敏捷软件工程师认证}
+\cvitem{}{爱立信整洁代码认证}
+\cvitem{}{Coursera 课程结业认证 * 2}
 
 
 \end{document}
