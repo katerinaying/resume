@@ -35,14 +35,6 @@
 \social[github]{VincentYChen}                              % optional, remove / comment the line if not wanted
 \photo[64pt][0.4pt]{pic/vincent}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
 
-% 显示索引号;仅用于在简历中使用了引言
-%\makeatletter
-%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
-%\makeatother
-
-% 分类索引
-%\usepackage{multibib}
-%\newcites{book,misc}{{Books},{Others}}
 %----------------------------------------------------------------------------------
 %            内容
 %----------------------------------------------------------------------------------
@@ -51,7 +43,7 @@
 \makecvtitle
 
 \section{总结}
-\cvitem{}{过硬的C++技能， 熟悉敏捷开发， 快速学习能力}
+\cvitem{}{过硬的C++技能， 熟悉敏捷开发流程， 快速学习能力}
 
 \section{教育背景}
 \cventry{2008--2012}{本科}{华东师范大学}{上海}{电子信息科学与技术}{
@@ -59,20 +51,22 @@
 \begin{itemize}
 \item 获第十二届“挑战杯”全国大学生课外学术科技作品竞赛特等奖
 \item 获第二届“北斗杯”全国青少年科技创新大赛（大学组）三等奖
+\item 四项市级奖项，两项专利
 \end{itemize}} 
 
 \section{技能}
-\cvitem{}{\textbf{C/C++(3+ years)}, Linux(5 years)}
-\cvitem{}{Python, Java, Bash, Git, VIM, Eclipse, Sublime, ItelliJ}
-\cvitem{}{熟悉memcache，protobuff的具体实现}
+\cvitem{}{\textbf{C/C++(3+年)}, TCP/IP(3年),Linux(5年)}
+\cvitem{}{Python，Java，Bash，Git，VIM，Eclipse，Sublime，ItelliJ}
+% \cvitem{}{熟悉memcache，protobuff的具体实现}
 
 \section{工作经验}
 \cventry{2012--2015}{软件工程师}{爱立信上海研发中心}{上海}{}{%
 \begin{itemize}%
 \item \textbf{高性能视频流复制系统}
     \begin{itemize}
-    \item 基于Linux平台的C++应用，事件驱动，与memcache一致的线程模型，实现在KVM上100路频道的12倍流复制
+    \item 基于Linux平台的C++应用，事件驱动，模仿memcached实现线程模型，在KVM上达到100路频道的12倍流复制
     \item 独立设计并实现动态加载配置文件的模块
+    \item 基于protobuff，设计并实现系统性能测试注入端应用
     \item 运行性能测试并定位系统瓶颈，并且调优
     \item 使用valgrind检查并解决内存泄漏
     \item 使用cppcheck和sonar对代码进行静态分析并解决代码问题
@@ -92,14 +86,9 @@
 \item \textbf{研发中心24*7紧急支持}
     \begin{itemize}
     \item 负责紧急支持小组的工作流程培训，防火演习及日常管理工作
-    \item 负责平时客户
-    \item 工作中需快速掌握并帮助客户处理各种事件，如网络管理，Java,python应用， 或不同第三方应用的集成, 如oracle, veritas, loadbalancer     
+    \item 工作中需快速学习并帮助客户处理各种事件，如网络管理，Java,python应用，以及各种第三方应用的集成, 如oracle, veritas, loadbalancer     
     \end{itemize}
 \end{itemize}}
-
-
-
-% \renewcommand{\listitemsymbol}{-}             % 改变列表符号
 
 \section{语言技能}
 \cvitem{英语}{CET6}
