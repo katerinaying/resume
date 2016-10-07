@@ -1,12 +1,13 @@
-sudo: false
-addons:
-  apt:
-    packages:
-    - texlive-full
-#dist: trusty
-#before_install:
+#sudo: false
+#addons:
+#  apt:
+#    packages:
+#    - texlive-full
+sudo: required
+dist: trusty
+before_install:
 #- sudo apt-get -qq update && sudo apt-get install -y --no-install-recommends texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra dvipng texlive-latex-recommended
-#- sudo apt-get -qq update && sudo apt-get install -y --no-install-recommends texlive-full
+- sudo apt-get -qq update && sudo apt-get install -y --no-install-recommends texlive-full
 script:
 - mkdir _build
 - cd tex_version
