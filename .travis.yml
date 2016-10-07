@@ -1,14 +1,19 @@
-#sudo: false
-#addons:
-#  apt:
-#    packages:
-#    - texlive-full
 sudo: required
 dist: trusty
 before_install:
 #- sudo apt-get -qq update && sudo apt-get install -y --no-install-recommends texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra dvipng texlive-latex-recommended
 - sudo apt-get -qq update && sudo apt-get install -y --no-install-recommends texlive-full
 script:
+- mkdir $HOME/.fonts
+- cd $HOME/.fonts
+- wget https://github.com/dolbydu/font/raw/master/mono/Courier%20New.ttf
+- wget https://github.com/dolbydu/font/raw/master/mono/Courier%20New%20Bold.ttf
+- wget https://github.com/dolbydu/font/raw/master/mono/Courier%20New%20Italic.ttf
+- wget https://github.com/dolbydu/font/raw/master/mono/Courier%20New%20Bold%20Italic.ttf
+- wget https://github.com/dolbydu/font/raw/master/unicode/Microsoft%20Yahei.ttf
+- wget https://github.com/dolbydu/font/raw/master/unicode/Microsoft%20Yahei%20Bold.ttf
+- fc-cache -f -v
+- cd -
 - mkdir _build
 - cd tex_version
 - xelatex -interaction=nonstopmode -halt-on-error -output-directory ../_build resume_vincent.tex
