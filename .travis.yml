@@ -15,7 +15,7 @@ before_install:
 # TODO: Quite slow installation procesure, speed up the process
 - sudo apt-get -qq update && sudo apt-get install -y --no-install-recommends texlive-full
 script:
-- mkdir _build
+- mkdir $TRAVIS_BUILD_DIR/_build
 - cd tex_version
 - xelatex -interaction=nonstopmode -halt-on-error -output-directory ../_build resume_vincent.tex
 - xelatex -interaction=nonstopmode -halt-on-error -output-directory ../_build resume_yi_dong.tex
@@ -25,7 +25,7 @@ deploy:
     secure: XMQTPitRDqvGCFMp9ksqtiQCMW5o44unr5+r3/Mtam7gcRfm+5bB/a1j5hnjeahmJmBWSeRh72i5fytUzE3x+NrrRHMQBOcmriicNYFJMXPK2nlTcQooT1ASNsw1w8QXUrCmQeAJBh/k9HzA1pyF3VDQc+6DAb+DGBo47lHewr4mPH1EOVamOeOwIzaJQpTl6ZfVe/E3q58Za3QAa1X2Y4DRrXdL3iTpK+4+BxIqjmtBLAZbQHio4HQGuEaojS20BhrGC+3Swc6npTzK1nVYJSp28hzGsXejYefbE0cUV3vChrfYw8EZm4/PrpOYat/b2d1SJ4HideBA+oNJcnYrxJ41sZwQI8STNr+r44YuNivBr+p4BcJKd4QZka3LagrJ/HdQn3GFnr4d5gMWlA1Ern8zG740S7hMrPVbWaDzqcw9cNmOn3t+njm5OybS2jCZ9KNF+dwKgKU83Qg/7AdmQWGuTSotK5LHRxe1TMS8W4LyayRyQrM/F+n1WH/CJfKJhsoGt3alg0vmnUYLAP5/yMaWzhmpFfYv3KlgDHqA4zn9C0ItNw2XHZjVjfW/tl6XXvvWHPHSm7XArUwyrVSBHWI4r41K3kAxW2IbnnrrkTkhY+PuJQEqq4mNLOy/GpSRvJceNTSByqVo+tU/Vc5Xh/OAX+XrhlgGEX6swrYkWpM=
   skip_cleanup: true
   file:
-  - _build/resume_yi_dong.pdf
-  - _build/resume_vincent.pdf
+  - $TRAVIS_BUILD_DIR/_build/resume_yi_dong.pdf
+  - $TRAVIS_BUILD_DIR/_build/resume_vincent.pdf
   on:
     repo: VincentYChen/resume
