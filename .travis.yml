@@ -1,7 +1,6 @@
 sudo: required
 dist: trusty
 before_install:
-# TODO: use the other fonts instead of the msfonts
 - mkdir $HOME/.fonts
 - cd $HOME/.fonts
 - wget https://github.com/dolbydu/font/raw/master/mono/Courier%20New.ttf
@@ -12,7 +11,6 @@ before_install:
 - wget https://github.com/dolbydu/font/raw/master/unicode/Microsoft%20Yahei%20Bold.ttf
 - fc-cache -f -v
 - cd -
-# TODO: Quite slow installation procesure, speed up the process
 - sudo apt-get -qq update && sudo apt-get install -y --no-install-recommends texlive-full
 script:
 - mkdir $TRAVIS_BUILD_DIR/_build
@@ -22,7 +20,7 @@ script:
 deploy:
   provider: releases
   api_key:
-    secure: XMQTPitRDqvGCFMp9ksqtiQCMW5o44unr5+r3/Mtam7gcRfm+5bB/a1j5hnjeahmJmBWSeRh72i5fytUzE3x+NrrRHMQBOcmriicNYFJMXPK2nlTcQooT1ASNsw1w8QXUrCmQeAJBh/k9HzA1pyF3VDQc+6DAb+DGBo47lHewr4mPH1EOVamOeOwIzaJQpTl6ZfVe/E3q58Za3QAa1X2Y4DRrXdL3iTpK+4+BxIqjmtBLAZbQHio4HQGuEaojS20BhrGC+3Swc6npTzK1nVYJSp28hzGsXejYefbE0cUV3vChrfYw8EZm4/PrpOYat/b2d1SJ4HideBA+oNJcnYrxJ41sZwQI8STNr+r44YuNivBr+p4BcJKd4QZka3LagrJ/HdQn3GFnr4d5gMWlA1Ern8zG740S7hMrPVbWaDzqcw9cNmOn3t+njm5OybS2jCZ9KNF+dwKgKU83Qg/7AdmQWGuTSotK5LHRxe1TMS8W4LyayRyQrM/F+n1WH/CJfKJhsoGt3alg0vmnUYLAP5/yMaWzhmpFfYv3KlgDHqA4zn9C0ItNw2XHZjVjfW/tl6XXvvWHPHSm7XArUwyrVSBHWI4r41K3kAxW2IbnnrrkTkhY+PuJQEqq4mNLOy/GpSRvJceNTSByqVo+tU/Vc5Xh/OAX+XrhlgGEX6swrYkWpM=
+    secure: TTe8DO0m3qEccU4LYDRJZR+hZvXVqGl33BdryhKK6He2Qz+EzZs777hSGSQz4SOOEuJAd0eCYT+8cG/QWPiHRngeVLqKLSzICKPnHxwZCDZ7BAaJp1OdhZpSpTf5T700Sftxz6UnVBeiYuAP1XmeQWHvXvguGri1tBV282S4kzv76Dmye5kNe2uiCWB+skwsuMtmxj9Kep8NxkOL/ToNvvxIzvk+zncGN8X0/Iy7r91AqZM+xZF9zpAz1RbroiQfglezZezosgF3WgfxnZgSYRn9ak/xv03YVr0J7A4ZhzLjc2ttrfnfJAsbVct2b70T2DZYDBD1DH0loGgPHfVEhB1qgTQYe6+s7zPg9OTbw6cSDyM6a6Vw+pTWMWJ/HOoh2+L4+7Ggx8iagVbH15aRRA6FRB5VwgFf1TJ8UumNgYS8hYopiVhxtUTswwxy3d5JyPbaBuHDRRsZdU7m71XqUkytJgMLzfnhR7Wll4qEgja7EXjs+quYvyCwVpNT1akUHjOZNNofbZY7GftPcQQ1XfEYOLzG54ABlmHdlUKxQJorTPbGLJb0zpUvtqFcwa5PAED/j/aSAaH7U/yXT9I1wp5FWZ+famFeyJb/FL4QzJtfXzfeRgElOJ6Ja0ywGvPrxf330MdU6amWxbINgQRWrX7T9FqkajX3t4qK+Gk6Nk4=
   skip_cleanup: true
   file:
   - $TRAVIS_BUILD_DIR/_build/resume_yi_dong.pdf
