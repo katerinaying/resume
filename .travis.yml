@@ -19,10 +19,9 @@ script:
 deploy:
   provider: releases
   api_key:
-    secure: TTe8DO0m3qEccU4LYDRJZR+hZvXVqGl33BdryhKK6He2Qz+EzZs777hSGSQz4SOOEuJAd0eCYT+8cG/QWPiHRngeVLqKLSzICKPnHxwZCDZ7BAaJp1OdhZpSpTf5T700Sftxz6UnVBeiYuAP1XmeQWHvXvguGri1tBV282S4kzv76Dmye5kNe2uiCWB+skwsuMtmxj9Kep8NxkOL/ToNvvxIzvk+zncGN8X0/Iy7r91AqZM+xZF9zpAz1RbroiQfglezZezosgF3WgfxnZgSYRn9ak/xv03YVr0J7A4ZhzLjc2ttrfnfJAsbVct2b70T2DZYDBD1DH0loGgPHfVEhB1qgTQYe6+s7zPg9OTbw6cSDyM6a6Vw+pTWMWJ/HOoh2+L4+7Ggx8iagVbH15aRRA6FRB5VwgFf1TJ8UumNgYS8hYopiVhxtUTswwxy3d5JyPbaBuHDRRsZdU7m71XqUkytJgMLzfnhR7Wll4qEgja7EXjs+quYvyCwVpNT1akUHjOZNNofbZY7GftPcQQ1XfEYOLzG54ABlmHdlUKxQJorTPbGLJb0zpUvtqFcwa5PAED/j/aSAaH7U/yXT9I1wp5FWZ+famFeyJb/FL4QzJtfXzfeRgElOJ6Ja0ywGvPrxf330MdU6amWxbINgQRWrX7T9FqkajX3t4qK+Gk6Nk4=
+    secure: dfbea21a2c561854ad2873987b89f0bc688164b7
   skip_cleanup: true
   file:
-  - $TRAVIS_BUILD_DIR/_build/resume_yi_dong.pdf
-  - $TRAVIS_BUILD_DIR/_build/resume_vincent.pdf
+  - $TRAVIS_BUILD_DIR/_build/resume_katrina.pdf
   on:
-    repo: VincentYChen/resume
+    repo: katerinaying/resume
