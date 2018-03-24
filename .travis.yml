@@ -15,8 +15,7 @@ before_install:
 script:
 - mkdir $TRAVIS_BUILD_DIR/_build
 - cd tex_version
-- xelatex -interaction=nonstopmode -halt-on-error -output-directory ../_build resume_vincent.tex
-- xelatex -interaction=nonstopmode -halt-on-error -output-directory ../_build resume_yi_dong.tex
+- xelatex -interaction=nonstopmode -halt-on-error -output-directory ../_build resume_katrina.tex
 deploy:
   provider: releases
   api_key:
