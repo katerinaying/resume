@@ -19,9 +19,8 @@ script:
 deploy:
   provider: releases
   api_key:
-    secure: dfbea21a2c561854ad2873987b89f0bc688164b7
+    secure: LpnepnMok9xbaUI5p5SZMDIO4v9wSoBeASploZpUh6Z90HojXCuQE5hlv3MzLnffBuOdJjTPUM2U1dTUQ282WEezK8zY/0yJWwt+9WVOYL8a5q9Cs2KDoYAu3FRcLc3HpllcUW1kIGP6SiMqOyGgp+md66T9ROK2AVbeqlfvJoAVg4yb6sSNb+BaVcNOHbZ39z0k7Xl2SEVjEoY3IhWspDcUZ/JcOeUzdPilyccgFupWE0rIzeS05tp+7ohjfGRnkNXSP2ZxX+0dthNuSSK4ctqJ82lkxxjFuUt5oaZ6fC6C+A7eMAMjNjgsX0CuuSZe+INbJymqFSOr0g/4hyeYdUoxVXfYR8Vjv5FBzOsiZ4l5CUBdjny5KmW5kZ+gaMh40jxMhbS79iOZ+lgqFlCwJXeEKn9d7SSXbb5GuShj+juR39j51yXdF0wgyRkjsu41jGwCp49z95QM7gQaFWX2hOfD9Lcw4Nqt/XsZTWFLsLa/FPyE8AwnK8pBwb/XLdOn7SsLNtcq4LK2lVp/7bCJNo1KryuOgUHtT+LMS7ntv1RbsCkEmw51P0lxwDmowhCm2rIVVNyUWbhmkd7dfL/p4wUJHDcvRJnYtC+mbfAVvIiIhEpYGhEQSVKHwNk6sqLqK0iBjYtBCboXiuuG9pnUbjeU8T4jk4em88Ma8bL37Zg=
   skip_cleanup: true
-  file:
-  - $TRAVIS_BUILD_DIR/_build/resume_katrina.pdf
+  file: $TRAVIS_BUILD_DIR/_build/resume_katrina.pdf
   on:
     repo: katerinaying/resume
